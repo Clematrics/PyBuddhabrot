@@ -49,6 +49,10 @@ It is based on the following parameters:
 
 The image was rendered after 3200000 sequences were computed.
 
+I also produced an animation from the multiple images created with those parameters :
+
+<a href="http://www.youtube.com/watch?v=4DexihpgJmw&feature=player_embedded" target="_blank"><img src="http://img.youtube.com/vi/4DexihpgJmw/0.jpg" alt="Animation" width="240" height="180" border="10" /></a>
+
 # Requirements
 
 This program requires:
