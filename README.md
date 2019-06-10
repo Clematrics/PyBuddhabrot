@@ -1,6 +1,6 @@
 # PyBuddhabrot
 
-The buddhabrot is a fractal based on the Mandelbrot fractal. However, it does not render images by checking the convergence of the sequence z = z² + c; rather it keeps the sequence which escapes and increase the pixel corresponding to each point of the sequence. This process reveals a mandelbrot-like shape, but with a lot more complexity and beauty.
+The buddhabrot is a fractal based on the Mandelbrot fractal. However, it does not render images by checking the convergence of the sequence z = z² + c; rather it keeps escaping sequences and increase the pixel's value corresponding to each element of the sequence. This process reveals a mandelbrot-like shape, but with a lot more complexity and beauty.
 
 Here is a [link](http://superliminal.com/fractals/bbrot/bbrot.htm) to its discoverer page, for a more in-depth presentation.
 
@@ -15,7 +15,7 @@ The program creates a file called `buddhabrot.bin`, which saves the current stat
 
 When launching `buddhabrot_gui.py` for the first time, you are asked to enter some values:
   * Width : the width of images produced
-  * Height : the height ofimages produced
+  * Height : the height of images produced
   * Number of complex numbers : the number of random complex numbers to pick and compute the sequence
   * Number of iterations : the number of iterations of the sequence to compute
   * Top left corner : the complex number that will designate the top left corner of the image
@@ -39,7 +39,7 @@ Here is an example of image produced by the program.
 
 ![example](https://github.com/Clematrics/PyBuddhabrot/blob/master/buddhabrot.png)
 
-It used the following parameters:
+It is based on the following parameters:
   * Width : 6000
   * Height : 6000
   * Number of complex numbers : 0 (it means unlimited)
@@ -47,7 +47,7 @@ It used the following parameters:
   * Top left corner : -2.25+1.5j (recommended value to get all the buddhabrot)
   * Bottom right corner : 0.75-1.5j (recommended value to get all the buddhabrot)
 
-The image was rendered after 3200000 sequences of complex numbers where computed.
+The image was rendered after 3200000 sequences were computed.
 
 # Requirements
 

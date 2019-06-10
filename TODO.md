@@ -1,6 +1,9 @@
 More parameters:
   * Number of iterations where the sequence stay inside and number of iterations where the sequence must have escaped
   * Range of escape
+  * Choose a seed of generation (how to deal with multiple cpus ?) to always have the same image from one seed
+
+Display the total number of sequences computed since the beginning
 
 Make the number of iterations and complex numbers changeable parameters
 
